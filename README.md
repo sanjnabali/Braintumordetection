@@ -20,6 +20,12 @@ This project applies computer graphics techniques to a crucial real-world applic
 3. Set up the environment and install the required libraries using:
    ```bash
    pip install -r requirements.txt
+
+1. torch==2.1.0 is for PyTorch, the deep learning framework you're using.
+2. torchvision==0.15.0 is for the computer vision utilities, which you need to work with models like resnet18.
+3. matplotlib==3.7.0 is for plotting graphs and visualizations.
+4. numpy==1.24.2 is used for numerical operations.
+   
 4. Load medical scan data (e.g., DICOM files) into the project interface.
 5. Run the program to visualize the 3D models and tumor detection overlays.
 # Usage
